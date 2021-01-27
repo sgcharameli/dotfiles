@@ -1,3 +1,9 @@
+- defaults:
+    link:
+      relink: true
+- clean: ["~"]
 - brewfile:
-    # This accepts the same options as `brew bundle` command:
-    file: Brewfile
+    file: homebrew/Brewfile
+    no-upgrade: true
+- create:
+    - ~/Proyectos
