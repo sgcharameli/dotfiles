@@ -2,8 +2,12 @@
     link:
       relink: true
 - clean: ["~"]
+- create:
+    - ~/Proyectos
+    - ~/.nvm
 - brewfile:
     file: homebrew/Brewfile
     no-upgrade: true
-- create:
-    - ~/Proyectos
+- shell:
+    - [nvm/patch-nvm.sh, Patching nvm...]
+    - [zsh/install.sh, Installing zsh...]
