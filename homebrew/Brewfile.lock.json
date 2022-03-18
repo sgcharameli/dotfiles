@@ -1,0 +1,76 @@
+{
+  "entries": {
+    "cask": {
+      "iterm2": {
+        "version": "3.4.15",
+        "options": {
+          "full_name": "iterm2"
+        }
+      },
+      "visual-studio-code": {
+        "version": "1.65.2",
+        "options": {
+          "full_name": "visual-studio-code"
+        }
+      },
+      "google-chrome": {
+        "version": "99.0.4844.74",
+        "options": {
+          "full_name": "google-chrome"
+        }
+      },
+      "appcleaner": {
+        "version": "3.6.3,4222",
+        "options": {
+          "full_name": "appcleaner"
+        }
+      },
+      "notion": {
+        "version": "2.0.21",
+        "options": {
+          "full_name": "notion"
+        }
+      },
+      "jetbrains-toolbox": {
+        "version": "1.22,1.22.10970",
+        "options": {
+          "full_name": "jetbrains-toolbox"
+        }
+      },
+      "whatsapp": {
+        "version": "2.2206.9",
+        "options": {
+          "full_name": "whatsapp"
+        }
+      }
+    },
+    "brew": {
+      "nvm": {
+        "version": "0.39.1_1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/nvm/blobs/sha256:6e14c8a2bf94212545c1ebac9a722df168c318d0e8af2fc75b729a07fea54efe",
+              "sha256": "6e14c8a2bf94212545c1ebac9a722df168c318d0e8af2fc75b729a07fea54efe"
+            }
+          }
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "monterey": {
+        "HOMEBREW_VERSION": "3.4.2",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "78bee4993642ed4dea8cb69aea6e0f1481d21808",
+        "CLT": "13.3.0.0.1.1645755326",
+        "Xcode": "13.2.1",
+        "macOS": "12.3"
+      }
+    }
+  }
+}

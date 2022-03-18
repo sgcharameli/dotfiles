@@ -1,0 +1,64 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- clean: ['~']
+
+- create:
+    - ~/.nvm
+    - ~/.ssh
+    - ~/lcapps
+    - ~/proyectos
+
+- brewfile:
+    - homebrew/Brewfile
+
+- shell:
+    - description: Installing submodules
+      command: git submodule update --init --recursive
+
+    - description: Configuring iTerm2
+      command: ~/.dotfiles/iterm2/install.sh
+
+    - description: Installing oh-my-zsh
+      command: ~/.dotfiles/zsh/omz/install.sh
+
+    - description: Installing zsh-syntax-highlighting Plugin
+      command: ~/.dotfiles/zsh/omz/plugins/install_zsh-syntax-highlighting.sh
+
+    - description: Installing zsh-autosuggestions.sh Plugin
+      command: ~/.dotfiles/zsh/omz/plugins/install_zsh-autosuggestions.sh
+
+    - description: Installing zsh-completions Plugin
+      command: ~/.dotfiles/zsh/omz/plugins/install_zsh-completions.sh
+
+    - description: Installing Powerlevel10k Theme
+      command: ~/.dotfiles/zsh/omz/themes/install_powerlevel10k.sh
+
+    - description: Installing fonts
+      command: ~/.dotfiles/fonts/install.sh
+
+    - description: For install latest node LTS version use -> 
+      command: echo 'nvm install --lts'
+
+- link:
+    ~/.p10k.zsh:
+      create: true
+      path: zsh/omz/.p10k.zsh
+    ~/.zshrc:
+      create: true
+      path: zsh/.zshrc
+    ~/proyectos/.gitconfig:
+      create: true
+      path: git/gitconfig
+    ~/.dotfiles/.gitconfig:
+      create: true
+      path: git/gitconfig
+    ~/lcapps/.gitconfig:
+      create: true
+      path: git/gitconfig_lcapps
+    ~/.ssh/config:
+      create: true
+      path: ssh/config
