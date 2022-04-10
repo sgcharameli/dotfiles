@@ -8,19 +8,19 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.65.2",
+        "version": "1.66.1",
         "options": {
           "full_name": "visual-studio-code"
         }
       },
       "google-chrome": {
-        "version": "99.0.4844.74",
+        "version": "100.0.4896.75",
         "options": {
           "full_name": "google-chrome"
         }
       },
       "appcleaner": {
-        "version": "3.6.3,4222",
+        "version": "3.6.4,4270",
         "options": {
           "full_name": "appcleaner"
         }
@@ -32,7 +32,7 @@
         }
       },
       "jetbrains-toolbox": {
-        "version": "1.22,1.22.10970",
+        "version": "1.23,1.23.11731",
         "options": {
           "full_name": "jetbrains-toolbox"
         }
@@ -41,6 +41,18 @@
         "version": "2.2206.9",
         "options": {
           "full_name": "whatsapp"
+        }
+      },
+      "google-cloud-sdk": {
+        "version": "latest",
+        "options": {
+          "full_name": "google-cloud-sdk"
+        }
+      },
+      "postman": {
+        "version": "9.15.2",
+        "options": {
+          "full_name": "postman"
         }
       }
     },
@@ -64,12 +76,12 @@
   "system": {
     "macos": {
       "monterey": {
-        "HOMEBREW_VERSION": "3.4.2",
+        "HOMEBREW_VERSION": "3.4.5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "392ea7893b2390659c97ed2fc171e07563ce8c35",
+        "Homebrew/homebrew-core": "9d94e7f0ec2a5de5bf67d324a21252a1c6935655",
         "CLT": "13.3.0.0.1.1645755326",
-        "Xcode": "13.2.1",
-        "macOS": "12.3"
+        "Xcode": "13.3",
+        "macOS": "12.3.1"
       }
     }
   }

@@ -1,6 +1,8 @@
 cask "iterm2"
 cask "visual-studio-code"
 cask "google-chrome"
+cask "google-cloud-sdk"
+cask "postman"
 cask "appcleaner"
 cask "notion"
 cask "jetbrains-toolbox"
