@@ -7,4 +7,5 @@ cask "appcleaner"
 cask "notion"
 cask "jetbrains-toolbox"
 brew "nvm"
+brew "firebase-cli"
 
