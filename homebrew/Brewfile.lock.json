@@ -2,19 +2,19 @@
   "entries": {
     "cask": {
       "iterm2": {
-        "version": "3.4.15",
+        "version": "3.4.16",
         "options": {
           "full_name": "iterm2"
         }
       },
       "visual-studio-code": {
-        "version": "1.66.1",
+        "version": "1.69.0",
         "options": {
           "full_name": "visual-studio-code"
         }
       },
       "google-chrome": {
-        "version": "100.0.4896.75",
+        "version": "103.0.5060.114",
         "options": {
           "full_name": "google-chrome"
         }
@@ -26,13 +26,13 @@
         }
       },
       "notion": {
-        "version": "2.0.21",
+        "version": "2.1.0",
         "options": {
           "full_name": "notion"
         }
       },
       "jetbrains-toolbox": {
-        "version": "1.23,1.23.11731",
+        "version": "1.25,1.25.12424",
         "options": {
           "full_name": "jetbrains-toolbox"
         }
@@ -50,7 +50,7 @@
         }
       },
       "postman": {
-        "version": "9.15.2",
+        "version": "9.22.2",
         "options": {
           "full_name": "postman"
         }
@@ -70,18 +70,57 @@
             }
           }
         }
+      },
+      "firebase-cli": {
+        "version": "11.2.1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_monterey": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/firebase-cli/blobs/sha256:2f8d3993c63dcb1c3422db222ced8cd4a5a321e8b3f7d7d026598d652ce1978d",
+              "sha256": "2f8d3993c63dcb1c3422db222ced8cd4a5a321e8b3f7d7d026598d652ce1978d"
+            },
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/firebase-cli/blobs/sha256:afada1476deb451450b384ae9eb127a4f7042738a76312cc01d3aacf2891dc4b",
+              "sha256": "afada1476deb451450b384ae9eb127a4f7042738a76312cc01d3aacf2891dc4b"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/firebase-cli/blobs/sha256:0ad77e2525d2b5ed03d86b461ec9e1a94cdaaeb780a951df72c09fd675de7de2",
+              "sha256": "0ad77e2525d2b5ed03d86b461ec9e1a94cdaaeb780a951df72c09fd675de7de2"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/firebase-cli/blobs/sha256:0ad77e2525d2b5ed03d86b461ec9e1a94cdaaeb780a951df72c09fd675de7de2",
+              "sha256": "0ad77e2525d2b5ed03d86b461ec9e1a94cdaaeb780a951df72c09fd675de7de2"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/firebase-cli/blobs/sha256:0ad77e2525d2b5ed03d86b461ec9e1a94cdaaeb780a951df72c09fd675de7de2",
+              "sha256": "0ad77e2525d2b5ed03d86b461ec9e1a94cdaaeb780a951df72c09fd675de7de2"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/firebase-cli/blobs/sha256:d3c29a794e58f6728de21f7d7ab6d349d83f7dc0a6ca99d76500b1c9bc447975",
+              "sha256": "d3c29a794e58f6728de21f7d7ab6d349d83f7dc0a6ca99d76500b1c9bc447975"
+            }
+          }
+        }
       }
     }
   },
   "system": {
     "macos": {
       "monterey": {
-        "HOMEBREW_VERSION": "3.4.5",
-        "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "9d94e7f0ec2a5de5bf67d324a21252a1c6935655",
-        "CLT": "13.3.0.0.1.1645755326",
-        "Xcode": "13.3",
-        "macOS": "12.3.1"
+        "HOMEBREW_VERSION": "3.5.4",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "0a56100fc5e907c8c270aab315bd1d834fd1e775",
+        "CLT": "13.4.0.0.1.1651278267",
+        "Xcode": "13.4",
+        "macOS": "12.4"
       }
     }
   }

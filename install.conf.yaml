@@ -9,7 +9,6 @@
 - create:
     - ~/.nvm
     - ~/.ssh
-    - ~/lcapps
     - ~/proyectos
 
 - brewfile:
@@ -43,6 +42,9 @@
     - description: For install latest node LTS version use -> 
       command: echo 'nvm install --lts'
 
+    - description: Installing SDKMan
+      command: ~/.dotfiles/sdkman/install.sh
+
 - link:
     ~/.p10k.zsh:
       create: true
@@ -59,9 +61,6 @@
     ~/.dotfiles/.gitconfig:
       create: true
       path: git/gitconfig_proyectos
-    ~/lcapps/.gitconfig:
-      create: true
-      path: git/gitconfig_lcapps
     ~/.ssh/config:
       create: true
       path: ssh/config

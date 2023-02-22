@@ -2,5 +2,9 @@
 	path = ~/.dotfiles/.gitconfig
 [includeIf "gitdir:~/proyectos/"]
 	path = ~/proyectos/.gitconfig
-[includeIf "gitdir:~/lcapps/"]
-	path = ~/lcapps/.gitconfig
+[includeIf "gitdir:~/sanitas/"]
+	path = ~/sanitas/.gitconfig
+[includeIf "gitdir:~/kubernetes/"]
+	path = ~/kubernetes/.gitconfig
+[core]
+	autocrlf = input
